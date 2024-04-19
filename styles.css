@@ -114,13 +114,11 @@ nav {
     background-color: pink;
     padding: 80px 5px;
     width:40%;
-    /* Added padding to ensure content stays within border */
 }
 
 #product_card h4,
 #product_card p {
     margin: 5px 0;
-    /* Adjust margin to control spacing between elements */
 }
 #product_card img{
     max-width: 80%;
@@ -129,12 +127,10 @@ nav {
 }
 #shipping {
     text-align: center;
-    /* Adjust text alignment to left */
     margin: 10px;
-    /* Simplified margin */
     background-color: black;
     color:white;
-        text-shadow: 1px 1px salmon;
+    text-shadow: 1px 1px salmon;
     margin:5px 5px;
     padding: 5px 5px;
     width: 100%;
@@ -143,19 +139,13 @@ nav {
 
 #shipping_faqs ul {
     display: flex;
-    /* Use flexbox */
     flex-wrap: wrap;
-    /* Wrap items if they exceed container width */
-    /* list-style-type: none; */
-    /* Remove default bullet points */
     list-style-type: none;
 }
 
 #shipping_faqs ul li {
     flex: 1;
-    /* Distribute space evenly among list items */
     margin-right: 20px;
-    /* Add space between list items */
 }
 
 footer {
